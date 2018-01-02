@@ -1,0 +1,161 @@
+/*normalize*/
+@import url("../css/normalize.css");
+/*style CSS*/
+* {
+  box-sizing: border-box;
+}
+/*GLOBAL STYLES*/
+body {
+  background-image: url("../img/fond.png");
+  font-family: 'Slabo 27px', serif;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  color: #25b3b4;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin: 0 auto;
+  padding: 15px;
+}
+h3 {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 0 auto;
+  padding: 10px;
+}
+h4 {
+font-size: 1.2em;
+margin: 0 auto;
+padding: 5px;
+}
+h4::before {
+  content: "\2666";
+  color: #1b9ca2;
+}
+h4::after {
+  content: "\2666";
+  color: #1b9ca2;
+}
+article h4 {
+  text-align: center;
+}
+h5 {
+  color: #FFFFFF;
+  font-size: 1em;
+}
+.button {
+  background-color: #25b3b4;
+  display: inline-block;
+  float: right;
+  color: #FFFFFF;
+  font-size: 0.75em;
+  padding: 10px;
+}
+/*END GLOBAL STYLES*/
+.menu a {
+  color: #FFFFFF;
+}
+.menu {
+  background: #25b3b4;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  border-top: 3px solid #1b9ca2;
+  border-bottom: 3px solid #1b9ca2;
+  padding: 0;
+}
+.menu img {
+  width: 160px;
+}
+nav ul {
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  line-height: auto;
+  text-transform: capitalize;
+  font-size: 1em;
+  padding: 0px 15px;
+}
+section.intro {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+.container {
+  min-width: 800px;
+  max-width: 1100px;
+  margin: auto;
+}
+.recipies {
+  float: left;
+  background: #b6dfdd;
+  width: 69%;
+  margin-right: 1%;
+}
+.recipies::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header.title {
+  width: 100%;
+  text-align: center;
+}
+article {
+  float: left;
+  text-align: left;
+  max-width: 45%;
+  margin: 15px;
+  padding: 15px;
+}
+article img {
+  float: left;
+  border-radius: 50%;
+  padding: 10px;
+}
+.button::after {
+  content: "\2295";
+  padding-left: 5px;
+}
+.news {
+  position: relative;
+  float: right;
+  background: #25b3b4;
+  font-size: 0.75em;
+  text-align: left;
+  color: #FFFFFF;
+  width: 30%;
+  padding: 20px;
+  border: 3px solid #1b9ca2;
+}
+.news img {
+  width: 100px;
+  position: absolute;
+  right: -40px;
+  top: -40px;
+}
+.date {
+  color: #FFFFFF;
+  font-size: 1.2em;
+  padding: 5px;
+}
+.date::before {
+  content: "\2295";
+  padding-left: 5px;
+}
+.aside::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  font-size: 15px;
+  text-align: center;
+}
